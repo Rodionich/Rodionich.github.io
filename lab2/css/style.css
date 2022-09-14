@@ -1,0 +1,84 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+
+tr:first-child {
+    background-color: #338f8f;
+    color: #000000;
+    }
+
+tr:first-child:hover {
+    background-color: #f5f533;
+    color: #000000
+    }
+
+tr:nth-child(2) {
+    background-color: #f5f533;
+    color: #000000
+    }
+
+tr:nth-child(2):hover {
+    background-color: #338f8f;
+    color: #000000
+    }
+
+tr:nth-child(3), tr:nth-child(4){
+    color: white;
+}
+
+
+.figures{
+    display: flex;
+}
+
+.figure2{
+    position: relative;
+    left: 200px;
+}
+
+.square {
+	width: 60.5px;
+	height: 60.5px;
+    border: 0.75px solid black;
+    border-radius: 10%;
+}
+
+.square1-position {
+    background: #b8cce4;
+    transform: rotate(45deg);
+    position: relative;
+    left: 52.8px;
+    top: 30px;
+}
+
+.square2-position {
+    background: #ffff00;
+    transform: rotate(15deg);
+    position: relative;
+    left: 13px;
+    top: 30.5px;
+}
+
+.square3-position {
+    background: #cc0066;
+    transform: rotate(345deg);
+    position: relative;
+    left: 91.6px;
+    bottom: 31.5px;
+}
+
+.square1-transform{
+    background: #b8cce4;
+    transform: translate(52.8px, 30px) rotate(45deg); 
+}
+
+.square2-transform{
+    background: #ffff00;
+    transform: translate(13px, 30.5px) rotate(15deg);
+}
+
+.square3-transform{
+    background: #cc0066;
+    transform: translate(91.6px, -31.5px) rotate(345deg);
+}
