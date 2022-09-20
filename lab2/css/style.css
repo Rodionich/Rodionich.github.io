@@ -3,24 +3,29 @@ table, th, td {
     border-collapse: collapse;
     }
 
+td{
+    text-align: center;
+    min-width: 100px;
+}
+
 tr:first-child {
-    background-color: #338f8f;
-    color: #000000;
+    background-color: #038f8f;
+    color: #303030;
     }
 
 tr:first-child:hover {
-    background-color: #f5f533;
-    color: #000000
+    background-color: #303030;
+    color: #038f8f;
     }
 
 tr:nth-child(2) {
-    background-color: #f5f533;
-    color: #000000
+    background-color: #f5f503;
+    color: #191919;
     }
 
 tr:nth-child(2):hover {
-    background-color: #338f8f;
-    color: #000000
+    background-color: #191919;
+    color: #f5f503
     }
 
 tr:nth-child(3), tr:nth-child(4){
