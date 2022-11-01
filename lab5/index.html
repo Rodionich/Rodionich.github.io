@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Лабораторна 3, Іванова Родіона">
+    <meta name="keywords" content="Іванов, ІО-92, Родіон">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Іванов Родіон Олександрович, ІО-92, Лабораторна 5, Варіант 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="first-task">
+        <div class="containers">
+            <div class="form-container">
+                <form method="post" action="#">
+                    <div>
+                        <label for="get-name">ПІБ:</label>
+                        <input id="get-name" type="text" placeholder="ТТТТТ Т.Т." />
+                    </div>
+                    <div>
+                        <label for="get-tel">Телефон:</label>
+                        <input id="get-tel" type="text" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ" />
+                    </div>
+                    <div>
+                        <label for="get-id-card">ID-card:</label>
+                        <input id="get-id-card" type="text" placeholder="ТТ №ЧЧЧЧЧЧ" />
+                    </div>
+                    <div>
+                        <label for="get-faculty">Факультет:</label>
+                        <input id="get-faculty" type="text" placeholder="ТТТТ" />
+                    </div>
+                    <div>
+                        <label for="get-date">Дата народження:</label>
+                        <input id="get-date" type="text" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" />
+                    </div>
+                </form>
+            </div>
+            <div class="post-container">
+                <div>ПІБ:</div>
+                <div>Телефон:</div>
+                <div>ID-card:</div>
+                <div>Факультет:</div>
+                <div>Дата народження:</div>
+            </div>
+        </div>
+        <button onclick="validate_input()">Submit</button>
+    </div>
+    
+    <div class="second-task">
+            <input type="color" id="head" name="head" value="#e66465">
+            <table data-dbl="0">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td onmouseover="random_color(this)" onclick="selected_color(this)" ondblclick="set_dbl()">3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td>34</td>
+                    <td>35</td>
+                    <td>36</td>
+                </tr>
+            </table>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
